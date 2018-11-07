@@ -17,8 +17,8 @@ import okhttp3.logging.HttpLoggingInterceptor;
  */
 public class RetrofitService {
 
-    private static final String HTTP_BASETESTURL = "http://wireless.tianya.cn/v/";
-    private static final String HTTP_LOGIN_BASETESTURL = "https://passport.tianya.cn/";
+    private static final String HTTP_BASETESTURL = "";
+    private static final String HTTP_LOGIN_BASETESTURL = "";
     private static final int CONNECTION_TIMEOUT = 6;
     private static final int DATE_TIMEOUT = 50;
     private static RetrofitService instance;
